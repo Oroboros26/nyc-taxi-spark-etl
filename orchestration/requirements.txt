@@ -1,0 +1,7 @@
+# Airflow itself is pinned via its own constraints file - see:
+# https://airflow.apache.org/docs/apache-airflow/stable/installation/installing-from-pypi.html
+# Example (Python 3.12, Airflow 2.10.x):
+#   pip install "apache-airflow==2.10.5" --constraint \
+#     "https://raw.githubusercontent.com/apache/airflow/constraints-2.10.5/constraints-3.12.txt"
+apache-airflow==2.10.5
+requests>=2.31
